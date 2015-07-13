@@ -10,35 +10,49 @@
   <meta charset = "UTF-8">
 </head>
 <body>
+
+<header>
   <!-- the body is the entire viewable area of the webpage. For example we can see text, links, images, and media.
   -->
   <h1>Exceptional</h1>
   <h2>Realty Group</h2>
-
+<nav>
   <a href="index.html">About</a> <a href="new-properties.html">listings</a> <a href="Mmarket-report.html">Market Report</a> <a href="http://portal.hud.gov/hudportal/HUD"></a>
+   </nav>
+ </header>
 
-  <img src="images/intro-pic.jpg" alt="A beautiful living room"
-  title="welcome to exceptional realty">
+<section id="featured-property">
+ <figure>
+    <img src="images/intro-pic.jpg" alt="A beautiful living room"
+    title="welcome to exceptional realty">
+    <figcaption>335 Carl Streel Apt 12 Brooklyn, NY - photo by Denise Richards.</figcaption>
+ </figure>
+    <!-- foldername/ = go inside the folder
+     filename = use the file in the current directory
+     ../ will leave the current folder and go up t parent folder
 
-  <!-- foldername/ = go inside the folder
-   filename = use the file in the current directory
-   ../ will leave the current folder and go up t parent folder
+    -->
 
-  -->
+    <p> Hello World. </p>
 
-  <p> Hello World. </p>
+    <p> Hello Moon. </p>
+ </section>
 
-  <p> Hello Moon. </p>
+  <section id= "promotional ">
+  <figure>
+      <!-- promo video -->
+      <video controls>
+      <source src="videos/reeal-estate.mp4" type="video/mp4">
+      <source src="videos/reeal-estate.ogv" type="video/ogg">
+      Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgradee your browser </a>
+      </video>
+      <figcaption> video by someones</figcaption>
 
-
-  <!-- promo video -->
-  <video controls>
-  <source src="videos/reeal-estate.mp4" type="video/mp4">
-  <source src="videos/reeal-estate.ogv" type="video/ogg">
-  Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgradee your browser </a>
-
-  </video>
-
+      </figure>
+  </section>
+ <footer>
+   &copy; 2015 Exceptional Realty. All rights reserved.
+ </footer>
 
 </body>
 </html>
